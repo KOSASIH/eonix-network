@@ -1,13 +1,18 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Ignore node_modules folder
+node_modules/
 
-pkg/
-src/
+# Ignore logs and log files
+logs/
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore build and dist folders
+build/
+dist/
